@@ -1,0 +1,55 @@
+[
+    {
+        "title": "Clear Logs",
+        "properties": [
+            {
+                "name": "logType",
+                "label": "Log Type",
+                "type": "selectbox",
+                "options": [
+                    {
+                        "value": "API",
+                        "label": "API Logs"
+                    },
+                    {
+                        "value": "Scheduler",
+                        "label": "Scheduler Logs"
+                    },
+                    {
+                        "value": "Audit",
+                        "label": "Audit Logs"
+                    }
+                ],
+                "required": "true"
+            },
+            {
+                "name": "duration",
+                "label": "Duration",
+                "type": "selectbox",
+                "options": [
+                    {
+                        "value": "8",
+                        "label": "8 Days"
+                    },
+                    {
+                        "value": "15",
+                        "label": "15 Days"
+                    },
+                    {
+                        "value": "30",
+                        "label": "30 Days"
+                    },
+                    {
+                        "value": "60",
+                        "label": "60 Days"
+                    },
+                    {
+                        "value": "90",
+                        "label": "90 Days"
+                    }
+                ],
+                "required": "true"
+            }
+        ]
+    }
+]
